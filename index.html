@@ -30,7 +30,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     </head>
-    <body id="body">
+    <body id="body" onload="myFunction()">
         <!--[if lt IE 7]>
                 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -603,7 +603,11 @@
         <script src="assets/js/smooth-scroll.js"></script>
         <script src="assets/js/owl.carousel.js"></script>
         <script src="assets/js/script.js"></script>
-
+        <script charset="big5">
+            function myFunction() {
+                alert("考量到山區以及市區的差別，我們訂定了以下暫停營運的標準：\n當瞬間風速超過13m/s，持續一分鐘，則暫停營運。\n\n當瞬間風速超過16m/s，則暫停營運。\n當台中市的震度在4級以上，纜車將會暫停營運，並讓正在纜車上的乘客，於最近的站點停靠。\n\n八個站點皆不在土石流潛勢溪流附近。若土石流影響到站點的停靠，我們會讓原定於該站下車的乘客，繼續前往下一站，而本來就位於該站點的乘客，我們會請乘客搭去鄰近的站點避難，並免除此路程的費用。\n\n若站點倒塌或傾斜，我們會立即停駛纜車，等待救援。");
+            }
+        </script>
     </body>
 </html>
 

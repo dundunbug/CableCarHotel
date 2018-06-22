@@ -296,9 +296,6 @@ header{
 	color: #fff;
 }
 
-.port figcaption span:before {
-	content: 'by ';
-}
 
 .port figcaption a {
 	text-align: center;
